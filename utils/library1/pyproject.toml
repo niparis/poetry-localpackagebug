@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "library1"
+version = "0.1"
+description = "i am lib"
+authors = ["nicolas <ni.paris@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.0"

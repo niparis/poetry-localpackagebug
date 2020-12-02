@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "service"
+version = "0.1"
+description = "i am service"
+authors = ["nicolas <ni.paris@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.61.1"
+library1 = {path = "../utils/library1"}
